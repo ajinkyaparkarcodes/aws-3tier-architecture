@@ -225,7 +225,7 @@ Inside the MySQL shell, run the following SQL commands:
   content VARCHAR(255)
 );
 
--INSERT INTO messages (content) VALUES ('Hello from DB!');
+- INSERT INTO messages (content) VALUES ('Hello from DB!');
 
 ---
 
