@@ -216,15 +216,16 @@ This guide walks through deploying a complete **3-tier architecture** on AWS:
 
 Inside the MySQL shell, run the following SQL commands:
 
-CREATE DATABASE YourDBName;
-USE YourDBName;
+- CREATE DATABASE YourDBName;
+  
+- USE YourDBName;
 
-CREATE TABLE messages (
+- CREATE TABLE messages (
   id INT AUTO_INCREMENT PRIMARY KEY,
   content VARCHAR(255)
 );
 
-INSERT INTO messages (content) VALUES ('Hello from DB!');
+-INSERT INTO messages (content) VALUES ('Hello from DB!');
 
 ---
 
